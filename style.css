@@ -74,4 +74,10 @@
     height: 42px;
     padding: 8px;
   }
+
+  .iconscontainer {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
 }
