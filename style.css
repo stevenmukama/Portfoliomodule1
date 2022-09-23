@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .navbar {
+    background: #3c3a39;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Roboto Serif', sans-serif;
+  }
+
+  .navbarmenu {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .textsection {
+    background: #1c1a19;
+    background-image: url("Group.svg");
+    background-repeat: no-repeat;
+    padding: 120px 24px 130.06px 24px;
+    background-position: 100% 120%;
+  }
+
+  h2 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+  }
+
+  .developer {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff5e1;
+  }
+
+  .build {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .linkedin,
+  .angelist,
+  .medium,
+  .twitter,
+  .github {
+    width: 24px;
+    height: 42px;
+    padding: 8px;
+  }
+}
