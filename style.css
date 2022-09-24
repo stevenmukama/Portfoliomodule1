@@ -35,7 +35,7 @@
     background-position: 100% 120%;
   }
 
-  h2 {
+  .headtext {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -79,5 +79,79 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
+  }
+
+  .works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+    padding: 4rem;
+  }
+
+  h1,
+  h2,
+  p {
+    color: #091e42;
+  }
+
+  .recent {
+    width: 327px;
+    height: 83px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .gridcontainer1 {
+    display: grid;
+  }
+
+  .stories {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .selection {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .listbutton {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    margin-top: 1rem;
+  }
+
+  .button1,
+  .button2,
+  .button3,
+  .button4 {
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+  }
+
+  .button5 {
+    background: #ff6b00;
+    padding: 12px;
+    margin-top: 12px;
+    width: 124px;
+    height: 48px;
+    color: #fff;
+  }
+
+  .listproject {
+    background-image: url("secondimage.png");
+    background-repeat: no-repeat;
   }
 }
