@@ -27,11 +27,9 @@
     height: 2rem;
   }
 
-  h3,
-  .footer,
   .textsection {
     background: #1c1a19;
-    background-image: url("Group.svg");
+    background-image: url("./images/Group.svg");
     background-repeat: no-repeat;
     padding: 120px 24px 130.06px 24px;
     background-position: 100% 120%;
@@ -86,10 +84,7 @@
   .works {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: flex-end;
-    align-items: center;
-    padding: 4rem;
+    padding: 2rem;
   }
 
   .recent {
@@ -132,12 +127,32 @@
     margin-top: 1rem;
   }
 
+  button:hover {
+    background-color: red;
+  }
+
   .button1,
   .button2,
   .button3,
   .button4 {
     border: 1px solid #8993a4;
     padding: 10px 12px;
+  }
+
+  .button1:hover {
+    background-color: red;
+  }
+
+  .button2:hover {
+    background-color: red;
+  }
+
+  .button3 :hover {
+    background-color: red;
+  }
+
+  .button4 :hover {
+    background-color: red;
   }
 
   .button5 {
@@ -147,17 +162,24 @@
     width: 124px;
     height: 48px;
     color: #fff;
+    border-style: none;
+  }
+
+  .button5:active {
+    background-color: #1c1a19;
   }
 
   .listproject {
-    background-image: url("secondimage.png");
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/secondimage.png");
     background-repeat: no-repeat;
-    margin-top: 2rem;
-    height: 50vh;
+    padding: 2rem 2rem 0 2rem;
+    background-size: cover;
   }
 
   .art {
-    margin: 2rem;
+    padding: 2rem 0 0 0;
     font-size: 2rem;
     font-weight: 400;
   }
@@ -173,7 +195,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    margin: 2rem;
   }
 
   .button6,
@@ -182,43 +203,132 @@
     background: rgba(255, 255, 255, 0.24);
     padding: 10px 12px;
     color: #fff;
+    border-style: none;
+  }
+
+  .button6:visited {
+    background-color: #8993a4;
   }
 
   .listbutton2 {
     gap: 12px;
     display: flex;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 2rem 0 1rem 0;
     list-style: none;
   }
 
   .button9 {
-    /* height: auto; */
     background: #ff6b00;
     padding: 12px;
     width: 100%;
     height: 48px;
     color: #fff;
-    margin-bottom: 1rem;
-  }
-
-  h3 {
-    background: #1c1a19;
-    background-image: url("Group.svg");
-    background-repeat: no-repeat;
-    background-position: 100% 80%;
+    border-style: none;
   }
 
   .footer {
-    background: #1c1a19;
-    background-image: url("Group.svg");
-    background-repeat: no-repeat;
-    background-position: 100% 80%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 24px;
+    color: #f4f5f7;
   }
 
+  .button10,
   .resume {
     color: #fff;
     background: #ff6b00;
+  }
+
+  .button10 {
+    height: 48px;
+    width: 161px;
+    border-style: none;
+  }
+
+  .footertext {
+    width: 327px;
+    height: 79px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    margin-bottom: 24px;
+  }
+
+  .aboutmefooter {
+    background: #1c1a19;
+    background-image: url("./images/illustration-about-me-mobile.svg");
+    background-repeat: no-repeat;
+    padding: 130px 24px;
+    background-position: 100% 103%;
+  }
+
+  .languagesection {
+    background: #1c1a19;
+    color: #fff;
+    padding: 120px 24px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .languageskill1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .language {
+    height: 24px;
+    font-family: 'InaiMathi', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 13px;
+  }
+
+  .languagelist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .languageitem {
+    padding: 0 12px;
+  }
+
+  .rectangle {
+    width: 18px;
+    height: 18px;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
+    padding: 0 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
   }
 }
