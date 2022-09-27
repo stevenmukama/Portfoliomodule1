@@ -128,7 +128,12 @@
   }
 
   button:hover {
-    background-color: red;
+    color: #f55800;
+  }
+
+  button:active {
+    background-color: #f55800;
+    color: #fff;
   }
 
   .button1,
@@ -139,20 +144,19 @@
     padding: 10px 12px;
   }
 
-  .button1:hover {
-    background-color: red;
+  .button1:disabled {
+    border: none;
+    color: #5b5957;
   }
 
   .button2:hover {
-    background-color: red;
+    color: #f55800;
+    background-color: #fff5e1;
   }
 
-  .button3 :hover {
-    background-color: red;
-  }
-
-  .button4 :hover {
-    background-color: red;
+  .button3:active {
+    background-color: #f55800;
+    color: #fff;
   }
 
   .button5 {
@@ -163,10 +167,6 @@
     height: 48px;
     color: #fff;
     border-style: none;
-  }
-
-  .button5:active {
-    background-color: #1c1a19;
   }
 
   .listproject {
@@ -204,10 +204,6 @@
     padding: 10px 12px;
     color: #fff;
     border-style: none;
-  }
-
-  .button6:visited {
-    background-color: #8993a4;
   }
 
   .listbutton2 {
@@ -330,5 +326,82 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
+  }
+
+  /* form part */
+  .formsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 24px;
+    gap: 58px;
+  }
+
+  .formtext {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .formcontainter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+  }
+
+  input {
+    width: 327px;
+    height: 48px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid 0.6px #ccc;
+  }
+
+  textarea {
+    width: 327px;
+    height: 114px;
+    border: none;
+    background: #fbf8f7;
+    color: #3c3a39;
+    padding: 12px;
+  }
+
+  textarea::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: #3c3a39;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .formitems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 6rem;
+  }
+
+  .submitbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    background: #ff6b00;
+    width: 131px;
+    height: 48px;
+    border: none;
+    color: #ffff;
+    margin: auto;
   }
 }
