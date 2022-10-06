@@ -406,7 +406,6 @@
     height: 48px;
     border: none;
     color: #ffff;
-    /* margin: auto; */
     text-align: center;
     align-content: center;
     justify-content: center;
@@ -415,11 +414,6 @@
     line-height: 24px;
   }
 
-  /* hr{
-    border: 1px solid black;
-    background: #0d151e;
-    border-radius: 10px;
-  } */
   .icons hr {
     border: 3px solid black;
     width: 30%;
