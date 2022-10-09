@@ -53,10 +53,6 @@
   padding-bottom: 258px;
 }
 
-li {
-  list-style: none;
-}
-
 .headtext,
 .developer,
 .build {
@@ -102,6 +98,11 @@ li {
 }
 
 .daily {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   color: #ffff;
 }
 
@@ -186,15 +187,6 @@ p.selection {
   color: #091e42;
 }
 
-.listbutton {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  gap: 10px;
-  justify-content: flex-start;
-  padding-left: 0;
-}
-
 .button1,
 .button2,
 .button3,
@@ -228,10 +220,6 @@ p.selection {
   display: none;
 }
 
-.thirdcard {
-  padding-top: 53%;
-}
-
 .listproject1 {
   padding: 29px 5% 17px;
 }
@@ -255,6 +243,7 @@ p.selection {
 }
 
 .thirdcard {
+  padding-top: 53%;
   grid-area: item3;
   background-image: url("./images/bgthird.png");
 }
@@ -286,14 +275,6 @@ p.selection {
     'item1 item2 item3'
     'item4 item5 item6';
   grid-gap: 30px;
-}
-
-.daily {
-  font-family: 'Inter', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .button6,
@@ -526,13 +507,8 @@ li {
   line-height: 24px;
 }
 
-/* .icons2 {
-  display: none;
-} */
-
 .icons3 {
   display: none;
-
 }
 
 .icons4 hr {
@@ -633,13 +609,10 @@ li {
     padding: 8px;
   }
 
-
-
-
   .works {
     display: flex;
     flex-direction: column;
-    padding: 2rem 2rem 2rem
+    padding: 2rem 2rem 2rem;
   }
 
   .recent {
@@ -689,7 +662,6 @@ li {
     background-image: none;
   }
 
-
   .stories {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -714,7 +686,6 @@ li {
     gap: 12px;
     margin-top: 1rem;
   }
-
 
   button:hover {
     color: #f55800;
@@ -1016,14 +987,14 @@ li {
   }
 
   .iconscontainer1 {
-    display: none
+    display: none;
   }
 
   .icons3 {
     display: none;
   }
 
-  /* 
+  /*
   .icons3 {
     display: flex;
     flex-direction: column;
