@@ -897,7 +897,6 @@ li {
     line-height: 43px;
   }
 
-  /* form part */
   .formsection {
     display: flex;
     flex-direction: column;
@@ -993,25 +992,4 @@ li {
   .icons3 {
     display: none;
   }
-
-  /*
-  .icons3 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .icons3 hr {
-    border: 3px solid black;
-    width: 30%;
-    background: #0d151e;
-    border-radius: 10px;
-    margin: 0 auto;
-  } */
-
-  /* .iconscontainer3 {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: center;
-  } */
 }
