@@ -29,7 +29,7 @@
 
   .textsection {
     background: #1c1a19;
-    background-image: url("./images/Group.svg");
+    background-image: url('./images/Group.svg');
     background-repeat: no-repeat;
     padding: 120px 24px 130.06px 24px;
     background-position: 100% 120%;
@@ -85,22 +85,25 @@
   .works {
     display: flex;
     flex-direction: column;
-    padding: 2rem 2rem 0;
+    padding: 0 1rem;
   }
 
   .recent {
-    width: 327px;
-    height: 83px;
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 39px;
+    padding: 40px 0;
     line-height: 52px;
     color: #091e42;
   }
 
   .gridcontainer1 {
     display: grid;
+  }
+
+  img {
+    max-width: 100%;
   }
 
   .stories {
@@ -173,7 +176,7 @@
   .listproject {
     display: flex;
     flex-direction: column;
-    background-image: url("./images/secondimage.png");
+    background-image: url('./images/secondimage.png');
     background-repeat: no-repeat;
     padding: 2rem 2rem 0 2rem;
     background-size: cover;
@@ -260,7 +263,7 @@
 
   .aboutmefooter {
     background: #1c1a19;
-    background-image: url("./images/illustration-about-me-mobile.svg");
+    background-image: url('./images/illustration-about-me-mobile.svg');
     background-repeat: no-repeat;
     padding: 130px 24px;
     background-position: 100% 103%;
@@ -329,20 +332,17 @@
     line-height: 43px;
   }
 
-  /* form part */
+  section.footersection {
+    margin-top: 120px;
+  }
+
   .formsection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 96px 24px;
-    gap: 68px;
   }
 
   .formtext {
     text-align: center;
     color: #172b4d;
-    width: 327px;
-    height: 216px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -356,10 +356,11 @@
     align-items: center;
     padding: 0;
     gap: 24px;
+    width: 100%;
   }
 
   input {
-    width: 327px;
+    width: 100%;
     height: 48px;
     border-top: 0;
     border-left: 0;
@@ -368,12 +369,11 @@
   }
 
   textarea {
-    width: 327px;
+    width: 100%;
     height: 114px;
     border: none;
     background: #fbf8f7;
     color: #3c3a39;
-    padding: 12px;
   }
 
   textarea::placeholder {
@@ -386,8 +386,13 @@
     list-style: none;
   }
 
+  .formcomponents {
+    width: 100%;
+  }
+
   .formitems {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
