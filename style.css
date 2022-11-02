@@ -346,7 +346,8 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 33px;
+    font-size: 32px;
+    margin-bottom: 3rem;
     line-height: 44px;
   }
 
