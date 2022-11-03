@@ -11,7 +11,7 @@
 }
 
 .header {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -26,7 +26,7 @@
 }
 
 .listitem {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -47,7 +47,7 @@
   gap: 42px;
   padding-left: 31px;
   padding-top: 191px;
-  background-image: url("./images/startDesktop.svg");
+  background-image: url('./images/startDesktop.svg');
   background-repeat: no-repeat;
   background-position: 110% 60%;
   padding-bottom: 258px;
@@ -64,7 +64,7 @@
   font-size: 72px;
   line-height: 113%;
   color: #f55800;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   display: contents;
 }
 
@@ -82,7 +82,7 @@
 
 .developer,
 .build {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .developer {
@@ -131,7 +131,7 @@
 }
 
 .recent {
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -170,7 +170,7 @@
 }
 
 h2.stories {
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -179,7 +179,7 @@ h2.stories {
 }
 
 p.selection {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -207,7 +207,7 @@ p.selection {
   width: 124px;
   height: 48px;
   background: #ff6b00;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -220,8 +220,26 @@ p.selection {
   display: none;
 }
 
+.art3 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffff;
+  height: 4.63rem;
+}
+
+.art4 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffff;
+  height: 4.63rem;
+}
+
 .listproject1 {
-  padding: 29px 5% 17px;
+  padding: 0 5% 13px;
 }
 
 .firstcard,
@@ -232,41 +250,43 @@ p.selection {
 
 .firstcard {
   grid-area: item1;
-  background-image: url("./images/bgfirst.svg");
+  background-image: url('./images/bgfirst.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .secondcard {
   grid-area: item2;
-  background-image: url("./images/bgsecond.svg");
+  background-image: url('./images/bgsecond.svg');
+  background-size: cover;
 }
 
 .thirdcard {
-  padding-top: 53%;
+  padding-top: 50%;
   grid-area: item3;
-  background-image: url("./images/bgthird.png");
+  background-image: url('./images/bgthird.png');
+  background-size: cover;
 }
 
 .fourthcard {
-  padding-top: 51.7%;
+  padding-top: 50%;
   grid-area: item4;
-  background-image: url("./images/bgfirst.svg");
+  background-image: url('./images/bgfirst.svg');
   background-size: cover;
 }
 
 .fifthcard {
-  background-image: url("./images/bgsecond.svg");
+  background-image: url('./images/bgsecond.svg');
   grid-area: item5;
   background-size: cover;
-  padding-top: 51.6%;
+  padding-top: 50%;
 }
 
 .sixthcard {
   background-size: cover;
   grid-area: item6;
-  padding-top: 63.7%;
-  background-image: url("./images/bgthird.png");
+  padding-top: 50%;
+  background-image: url('./images/bgthird.png');
 }
 
 .grids {
@@ -275,6 +295,7 @@ p.selection {
     'item1 item2 item3'
     'item4 item5 item6';
   grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .button6,
@@ -304,11 +325,14 @@ button.button9 {
 
 h2.art1,
 .art2 {
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 138%;
+
+  /* line-height: 138%; */
+
+  /* height: 56px; */
   color: #fff;
 }
 
@@ -320,6 +344,11 @@ h2.art1,
   padding: 0 5% 13px;
 }
 
+ul.listbutton2 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footersection {
   background: #1c1a19;
   padding-top: 120px;
@@ -327,7 +356,7 @@ h2.art1,
   padding-right: 5%;
   background-repeat: no-repeat;
   background-position: 100% 20%;
-  background-image: url("./images/footerbg.svg");
+  background-image: url('./images/footerbg.svg');
 }
 
 .aboutmefooter {
@@ -339,7 +368,7 @@ h2.art1,
 }
 
 .footertext {
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -349,7 +378,7 @@ h2.art1,
 }
 
 .footer {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -403,11 +432,12 @@ h2.art1,
 }
 
 h2.language {
-  font-family: "InaiMathi", sans-serif;
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 138%;
+
+  /* line-height: 138%; */
   color: #fff;
 }
 
@@ -415,7 +445,7 @@ h2.language {
 .item2,
 .item3,
 .item4 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -429,6 +459,7 @@ h2.language {
   padding: 10% 5% 0;
   gap: 2%;
   margin-bottom: 121px;
+  width: 100%;
 }
 
 .formtext {
@@ -561,7 +592,7 @@ li {
 
   .textsection {
     background: #1c1a19;
-    background-image: url("./images/Group.svg");
+    background-image: url('./images/Group.svg');
     background-repeat: no-repeat;
     padding: 120px 24px 130.06px 24px;
     background-position: 100% 120%;
@@ -648,7 +679,8 @@ li {
   }
 
   .grids {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .footersection {
@@ -732,10 +764,13 @@ li {
   .listproject {
     display: flex;
     flex-direction: column;
-    background-image: url("./images/secondimage.png");
+    background-image: url('./images/secondimage.png');
     background-repeat: no-repeat;
-    padding: 2rem 2rem 0 2rem;
+
+    /* padding: 2rem 2rem 0 2rem; */
     background-size: cover;
+    padding: 0 5% 13px;
+    row-gap: 1rem;
   }
 
   .art {
@@ -828,7 +863,7 @@ li {
 
   .aboutmefooter {
     background: #1c1a19;
-    background-image: url("./images/illustration-about-me-mobile.svg");
+    background-image: url('./images/illustration-about-me-mobile.svg');
     background-repeat: no-repeat;
     padding: 130px 24px;
     background-position: 100% 103%;
@@ -901,15 +936,13 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 96px 24px;
     gap: 68px;
   }
 
   .formtext {
     text-align: center;
     color: #172b4d;
-    width: 327px;
-    height: 216px;
+    width: 100%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -923,10 +956,11 @@ li {
     align-items: center;
     padding: 0;
     gap: 24px;
+    width: 100%;
   }
 
   input {
-    width: 327px;
+    width: 100%;
     height: 48px;
     border-top: 0;
     border-left: 0;
@@ -947,6 +981,7 @@ li {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     color: #3c3a39;
+    width: 100%;
   }
 
   li {
